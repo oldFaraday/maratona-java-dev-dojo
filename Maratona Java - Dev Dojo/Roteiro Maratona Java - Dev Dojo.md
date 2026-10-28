@@ -10,7 +10,7 @@ ___
 - [x] Maratona Java 04 - Configurando variáveis de ambiente
 - [x] Maratona Java 05 - Executando compilação manualmente
 - [x] Maratona Java 06 - Download da IDE IntelliJ Community
-- [ ] Maratona Java 07 - Conhecendo a IDE IntelliJ Community
+- [x] Maratona Java 07 - Conhecendo a IDE IntelliJ Community
 - [ ] Maratona Java 08 - Organizando o código em pacotes
 - [ ] Maratona Java 09 - Comentários
 - [ ] Maratona Java 10 - Tipos primitivos pt 01 - convenções de variáveis
