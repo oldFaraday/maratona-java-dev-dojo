@@ -31,7 +31,59 @@ Depois é necessário configurar o o path para apontar para o %JAVA_HOME%
 
 Isso vai apontar para a pasta bin dentro da pasta de instalação do JDK garantido acesso independentemente das permissões de acesso do usuário.
 
+### Configurar as variáveis de ambiente no Linux Mint:
+1. Descobrir o caminho do JDK
 
+Abra o terminal e execute:
+```bash
+readlink -f $(which java)
+```
+
+A saída será algo parecido com:
+```
+/usr/lib/jvm/java-17-openjdk-amd64/bin/java
+```
+
+2. Configurar as variáveis
+
+Edite o arquivo de configuração do shell:
+
+```bash
+nano ~/.bashrc
+```
+
+Adicione ao final do arquivo (substitua o caminho pelo encontrado no Passo 1):
+
+```bash
+export JAVA_HOME=/usr/lib/jvm/jdk-25.0.5.0.3-oracle-x64
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+Salve com `Ctrl+O`, `Enter` e saia com `Ctrl+X`.
+
+Recarregue o arquivo:
+
+```bash
+source ~/.bashrc
+```
+
+---
+
+3. Verificar se deu certo
+
+Feche e reabra o terminal e teste:
+
+```bash
+echo $JAVA_HOME
+```
+
+Deve retornar o caminho configurado.
+
+```bash
+javac -version
+```
+
+Deve mostrar a versão do JDK — isso confirma que o `PATH` está correto.
 ## Aula 5: Executando compilação manualmente
 Podemos compilar um código Java que esteja salvo em um arquivo ".java" usando o comando "javac" no terminal dentro da pasta onde o arquivo está.
 
@@ -42,7 +94,7 @@ Depois que a compilação terminar, será gerado novo arquivo com o mesmo nome d
 Ex: "java NomeDoArquivo"
 
 ## Aula 6: Instalando a IDE (IntelliJ Community)
-A instalação é simples, basicamente um "next, next e finish"
 Da pra baixar a versão community do IntelliJ no [site deles](https://www.jetbrains.com/pt-br/idea/download/) de graça.
-
-## Aula 7: Conhecendo o IntelliJ
+Windows: A instalação é simples, basicamente um "next, next e finish"
+Linux Mint: Baixa o arquivo ".tar.gz" extrai e segue as instruções do arquivo "Install-Linux-tar.txt"
+## Aula 8: Organizando o código em pacotes
