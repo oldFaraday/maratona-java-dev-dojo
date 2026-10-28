@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "530c2fae503896cf",
+        "id": "eaf97038474cd598",
         "type": "tabs",
         "children": [
           {
-            "id": "307f2cc08939931c",
+            "id": "d786898435b936e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roteiro Maratona Java - Dev Dojo.md",
-                "mode": "preview",
+                "file": "Anotações/Aulas Introdutórias (0-9).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roteiro Maratona Java - Dev Dojo"
+              "title": "Aulas Introdutórias (0-9)"
             }
           }
         ]
@@ -188,9 +188,23 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "307f2cc08939931c",
+  "active": "d786898435b936e1",
   "lastOpenFiles": [
     "Roteiro Maratona Java - Dev Dojo.md",
+    "Anotações/Aulas Introdutórias (0-9).md",
+    "Exercícios da Maratona Java.md",
+    "Imagens/Tutorial Variáveis de Ambiente 05.png",
+    "Imagens/Tutorial Variáveis de Ambiente 04.png",
+    "Imagens/Tutorial Variáveis de Ambiente 03.png",
+    "Imagens/Tutorial Variáveis de Ambiente 02.png",
+    "Imagens/Tutorial Variáveis de Ambiente 01.png",
+    "Imagens/Funcionamento do Java.svg",
+    "Imagens",
+    "Funcionamento do Java.png",
+    "Funcionamento do Java 1.svg",
+    "Funcionamento do Java 2.png",
+    "Funcionamento do Java 1.png",
+    "Anotações",
     "2026-10-21.md",
     "Sem título.canvas",
     "Sem título.base",

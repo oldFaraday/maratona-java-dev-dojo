@@ -4,10 +4,10 @@
 ___
 ## Conteúdo do curso
 ### BÁSICO
-- [ ] Maratona Java 01 - O que esperar do curso
-- [ ] Maratona Java 02 - Como Java Funciona
-- [ ] Maratona Java 03 - Fazendo o download da JDK 15
-- [ ] Maratona Java 04 - Configurando variáveis de ambiente
+- [x] Maratona Java 01 - O que esperar do curso
+- [x] Maratona Java 02 - Como Java Funciona
+- [x] Maratona Java 03 - Fazendo o download da JDK 15
+- [x] Maratona Java 04 - Configurando variáveis de ambiente
 - [ ] Maratona Java 05 - Executando compilação manualmente
 - [ ] Maratona Java 06 - Download da IDE IntelliJ Community
 - [ ] Maratona Java 07 - Conhecendo a IDE IntelliJ Community
