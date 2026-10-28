@@ -30,3 +30,19 @@ Depois é necessário configurar o o path para apontar para o %JAVA_HOME%
 ![[Tutorial Variáveis de Ambiente 05.png]]
 
 Isso vai apontar para a pasta bin dentro da pasta de instalação do JDK garantido acesso independentemente das permissões de acesso do usuário.
+
+
+## Aula 5: Executando compilação manualmente
+Podemos compilar um código Java que esteja salvo em um arquivo ".java" usando o comando "javac" no terminal dentro da pasta onde o arquivo está.
+
+Ex: "javac NomeDoArquivo.java"
+
+Depois que a compilação terminar, será gerado novo arquivo com o mesmo nome do arquivo ".java", mas com a extensão ".class", o que quer dizer que ele agora pode ser executado pelo terminal osando o comando "java". O importante é que o nome do arquivo deve ser referenciado sim a extensão ".class".
+
+Ex: "java NomeDoArquivo"
+
+## Aula 6: Instalando a IDE (IntelliJ Community)
+A instalação é simples, basicamente um "next, next e finish"
+Da pra baixar a versão community do IntelliJ no [site deles](https://www.jetbrains.com/pt-br/idea/download/) de graça.
+
+## Aula 7: Conhecendo o IntelliJ

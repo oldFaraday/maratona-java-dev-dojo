@@ -8,8 +8,8 @@ ___
 - [x] Maratona Java 02 - Como Java Funciona
 - [x] Maratona Java 03 - Fazendo o download da JDK 15
 - [x] Maratona Java 04 - Configurando variáveis de ambiente
-- [ ] Maratona Java 05 - Executando compilação manualmente
-- [ ] Maratona Java 06 - Download da IDE IntelliJ Community
+- [x] Maratona Java 05 - Executando compilação manualmente
+- [x] Maratona Java 06 - Download da IDE IntelliJ Community
 - [ ] Maratona Java 07 - Conhecendo a IDE IntelliJ Community
 - [ ] Maratona Java 08 - Organizando o código em pacotes
 - [ ] Maratona Java 09 - Comentários
