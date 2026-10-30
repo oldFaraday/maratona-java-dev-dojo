@@ -11,10 +11,14 @@
             "id": "fdf524acd81e8404",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Exercícios da Maratona Java.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Exercícios da Maratona Java"
             }
           }
         ]
