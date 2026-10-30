@@ -1,6 +1,6 @@
 package com.gustavo.maratonajava.introducao;
 
-public class Exemplo02 {
+public class Example02 {
     static void main(String[] args) {
         // tipos primitivos: int, double, float, char, byte, short, long, boolean
         int age = 18;
