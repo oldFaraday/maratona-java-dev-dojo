@@ -35,13 +35,15 @@ maratona-java-dev-dojo/
 │   ├── Roteiro Maratona Java - Dev Dojo.md    # Checklist das 284 aulas
 │   ├── Exercícios da Maratona Java.md         # 904 exercícios em 53 seções
 │   ├── Anotações/
-│   │   └── Aulas Introdutórias (0-9).md       # Notas das aulas 2 a 8
+│   │   └── (0-9) Aulas Introdutórias.md       # Notas das aulas 0 a 9
+│   │   └── (10-14) Tipos primitivos.md        # Notas das aulas 10 a 14
 │   ├── Imagens/                               # Diagramas e capturas de tela
 │   └── .obsidian/                             # Configuração do vault
-└── exemplos-maratona-java/                    # Projeto Java com os exemplos
-    ├── exemplos-maratona-java.iml             # Módulo do IntelliJ
-    └── src/com/gustavo/maratonajava/          # Código-fonte por assunto
-        └── introducao/OlaMundo.java
+└── exemplos-maratona-java/                    # Projeto Java com os exemplos do curso
+    └── src/com/gustavo/maratonajava/
+        └── introducao/Example01.java
+        └── introducao/Example02.java
+        └── introducao/Example03.java
 ```
 
 ---
@@ -52,14 +54,14 @@ Legenda: ✅ concluído · 🔄 em andamento · ⬜ não iniciado
 
 | Módulo | Aulas | Tema | Status |
 | --- | :---: | --- | :---: |
-| **Básico** | 01–38 | Como o Java funciona, JDK, variáveis de ambiente, tipos primitivos, operadores, condicionais, laços e arrays | 🔄 8/38 |
+| **Básico** | 01–38 | Como o Java funciona, JDK, variáveis de ambiente, tipos primitivos, operadores, condicionais, laços e arrays | 🔄 14/38 |
 | **Intermediário** | 39–94 | Orientação a objetos: classes, métodos, encapsulamento, construtores, herança, enums, classes abstratas, interfaces e polimorfismo | ⬜ |
 | **Avançado** | 95–182 | Exceções, classes utilitárias (Wrappers, Strings, datas, Regex), IO/NIO, serialização e coleções | ⬜ |
 | **Mais avançado** | 183–219 | Generics, classes internas, lambdas, method references, Optional e Streams | ⬜ |
 | **Punk** | 220–279 | Threads, concorrência, `CompletableFuture`, padrões de projeto e JDBC | ⬜ |
 | **Finalização** | 280–284 | JUnit, atualização de JDK, Records e Pattern Matching | ⬜ |
 
-> **Status atual (29/10/2026):** 8 de 284 aulas concluídas (aulas 01–08). Anotações escritas das aulas introdutórias (02–08), roteiro completo mapeado e o primeiro projeto Java compilando e executando.
+> **Status atual (29/10/2026):** 14 de 284 aulas concluídas (aulas 01–14). Anotações escritas das aulas introdutórias (02–14), roteiro completo mapeado e o primeiro projeto Java compilando e executando.
 
 ---
 
@@ -86,12 +88,11 @@ Os exercícios são apenas enunciados: as soluções ficam por conta de quem res
 O projeto [`exemplos-maratona-java`](exemplos-maratona-java) reúne o código escrito durante as aulas. É um projeto Java simples, sem Maven/Gradle, com o código-fonte em `src/` e pacotes no padrão `com.gustavo.maratonajava.<assunto>`.
 
 ```text
-exemplos-maratona-java/
-├── exemplos-maratona-java.iml        # Módulo do IntelliJ
-└── src/
-    └── com/gustavo/maratonajava/
-        └── introducao/
-            └── OlaMundo.java         # Primeiro programa
+└── exemplos-maratona-java/
+    └── src/com/gustavo/maratonajava/
+        └── introducao/Example01.java
+        └── introducao/Example02.java
+        └── introducao/Example03.java
 ```
 
 ### Executar pelo IntelliJ IDEA
