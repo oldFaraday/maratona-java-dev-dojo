@@ -12,8 +12,8 @@ ___
 - [x] Maratona Java 06 - Download da IDE IntelliJ Community
 - [x] Maratona Java 07 - Conhecendo a IDE IntelliJ Community
 - [x] Maratona Java 08 - Organizando o código em pacotes
-- [ ] Maratona Java 09 - Comentários
-- [ ] Maratona Java 10 - Tipos primitivos pt 01 - convenções de variáveis
+- [x] Maratona Java 09 - Comentários
+- [x] Maratona Java 10 - Tipos primitivos pt 01 - convenções de variáveis
 - [ ] Maratona Java 11 - Tipos primitivos pt 02 - declaração e tamanho em memória
 - [ ] Maratona Java 12 - Tipos primitivos pt 03 - casting
 - [ ] Maratona Java 13 - Tipos primitivos pt 04 - Strings

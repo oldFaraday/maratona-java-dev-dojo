@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "eaf97038474cd598",
+        "id": "2736944d8f7e68e5",
         "type": "tabs",
         "children": [
           {
-            "id": "d786898435b936e1",
+            "id": "fdf524acd81e8404",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anotações/Aulas Introdutórias (0-9).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Aulas Introdutórias (0-9)"
+              "title": "Nova aba"
             }
           }
         ]
@@ -83,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "31a8adf09e163e01",
@@ -100,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roteiro Maratona Java - Dev Dojo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,11 +183,13 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "d786898435b936e1",
+  "active": "fdf524acd81e8404",
   "lastOpenFiles": [
-    "Exercícios da Maratona Java.md",
+    "Anotações/(10-14) Tipos primitivos.md",
+    "Imagens/Tipos primitivos.png",
     "Roteiro Maratona Java - Dev Dojo.md",
-    "Anotações/Aulas Introdutórias (0-9).md",
+    "Anotações/(0-9) Aulas Introdutórias.md",
+    "Exercícios da Maratona Java.md",
     "Imagens/Tutorial Variáveis de Ambiente 05.png",
     "Imagens/Tutorial Variáveis de Ambiente 04.png",
     "Imagens/Tutorial Variáveis de Ambiente 03.png",
@@ -204,7 +200,6 @@
     "Funcionamento do Java.png",
     "Funcionamento do Java 1.svg",
     "Funcionamento do Java 2.png",
-    "Funcionamento do Java 1.png",
     "Anotações",
     "2026-10-21.md",
     "Sem título.canvas",

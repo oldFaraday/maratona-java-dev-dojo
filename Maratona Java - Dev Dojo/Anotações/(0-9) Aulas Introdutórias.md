@@ -98,3 +98,44 @@ Da pra baixar a versão community do IntelliJ no [site deles](https://www.jetbra
 Windows: A instalação é simples, basicamente um "next, next e finish"
 Linux Mint: Baixa o arquivo ".tar.gz" extrai e segue as instruções do arquivo "Install-Linux-tar.txt"
 ## Aula 8: Organizando o código em pacotes
+Java é uma linguagem orientada a pacotes. Não só os arquivos, mas a forma como eles são armazenados é bastante relevante para a linguagem e para as convenções.
+Os pacotes servem principalmente para agrupar classes que possuem características em comum.
+
+A convenção da nomeação dos pacotes se dá pelo site com domínio invertido, o nome do projeto e o nome do pacote separados por um ponto final, por exemplo:
+```
+ex: com.gustavosimao.maratonajava.exemplos
+```
+
+A primeira linha de código de uma classe dentro de um pacote deve declarar o pacote da seguinte forma: 
+```Java
+package com.gustavo.maratonajava.introducao;
+```
+
+## Aula 9: Comentários
+Comentários em Java podem ser feitos de várias formas.
+#### Comentário de uma linha:
+``` Java
+// Este é um exemplo de comentário de uma única linha
+```
+#### Comentário de múltiplas linhas:
+``` Java
+/*
+Este
+é um
+exemplo
+de
+comentário
+de
+múltiplas
+linhas
+*/
+```
+#### Javadoc:
+``` Java
+/**
+*Este é um exemplo de <b>javadoc</b>
+*/
+```
+
+De acordo com o clean-code cometários devem ser evitados, afinal, se o código precisa de comentários ele não está legível o suficiente.
+O professor disse comentários javadoc são mais bem vistos, provavelmente porque são usados com finalidade mais técnica.
